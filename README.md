@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-* Practice using `find()` to isolate a specific result
+- Practice using `find()` to isolate a specific result
 
 ## Introduction
 
@@ -30,21 +30,21 @@ Superbowl. Our data looks like this:
 
 ```js
 const record = [
-  {year: "2018", result: "L"},
-  {year: "2017", result: "W"},
-  {year: "2016", result: "N/A"}
+  { year: "2018", result: "L" },
+  { year: "2017", result: "W" },
+  { year: "2016", result: "N/A" },
   //...
-]
+];
 ```
 
 Write a function called `superbowlWin()` in `index.js`:
 
-* The function should receive 1 argument, an `Array` of JavaScript `Object`s
-* Each object has two properties: `year` and `result`
-* It should use `find()` to test each `Object` to see if the `result` is `"W"` —
+- The function should receive 1 argument, an `Array` of JavaScript `Object`s
+- Each object has two properties: `year` and `result`
+- It should use `find()` to test each `Object` to see if the `result` is `"W"` —
   a win!
-* It should return the `year` when the win occurred (if it occurred at all!)
-* If no win is found, it should return, sadly, `undefined`
+- It should return the `year` when the win occurred (if it occurred at all!)
+- If no win is found, it should return, sadly, `undefined`
 
 ## Conclusion
 
@@ -55,4 +55,4 @@ return the first match.
 
 ## Resources
 
-* [MDN: Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+- [MDN: Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
